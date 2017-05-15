@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MofeelWeather</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="nav_share">分享</string>
+    <string name="text_nav_add">添加城市</string>
+    <string name="text_nav_share">分享</string>
+    <string name="text_mofeel">Mofeel</string>
+    <string name="text_mofeel_email">Lee_Mofeel@163.com</string>
+    <string name="text_forecast">预报</string>
+    <string name="text_aqi">空气质量</string>
+    <string name="hint_aqi">AQI指数</string>
+    <string name="hint_pm">PM指数</string>
+    <string name="text_suggestion">生活建议</string>
+</resources>

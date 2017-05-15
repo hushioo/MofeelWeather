@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/base_linear_back" >
+
+    <TextView
+        style="@style/text_hint"
+        android:text="@string/text_suggestion"
+        android:layout_marginLeft="@dimen/normal_margin"
+        android:layout_marginTop="@dimen/normal_margin"
+        />
+
+    <TextView
+        android:id="@+id/textComfort"
+        style="@style/text_suggestion"
+        />
+    <TextView
+        android:id="@+id/textCar"
+        style="@style/text_suggestion"
+        />
+    <TextView
+        android:id="@+id/textSport"
+        style="@style/text_suggestion"
+        />
+
+
+
+
+</LinearLayout>

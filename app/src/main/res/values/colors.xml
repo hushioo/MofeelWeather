@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00bcd4</color>
+    <color name="colorPrimaryDark">#00bcd4</color>
+    <color name="colorAccent">#00bcd4</color>
+    <color name="colorWhite">#fff</color>
+    <!-- 透明背景 -->
+    <color name="transBackground">#6000</color>
+    <color name="maxTransBackground">#0000</color>
+</resources>

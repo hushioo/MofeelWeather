@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:screenOrientation">portrait</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <!-- 基本text样式 -->
+    <style name="textBaseTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <!-- 基本左起始样式 -->
+    <style name="text_start_Theme" parent="textBaseTheme">
+        <item name="android:layout_gravity">start</item>
+    </style>
+    <!-- 基本提示样式 -->
+    <style name="text_hint" parent="text_start_Theme">
+        <item name="android:textSize">@dimen/text_normal</item>
+        <item name="android:layout_margin">@dimen/normal_margin</item>
+    </style>
+    <!-- 基本预测信息样式 -->
+    <style name="text_fore_item" parent="textBaseTheme">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+    <!-- 基本AQI样式 -->
+    <style name="text_AQI_PM" parent="textBaseTheme">
+        <item name="android:textSize">40sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <!-- 基本提示样式-->
+    <style name="text_suggestion" parent="textBaseTheme">
+        <item name="android:layout_margin">@dimen/normal_margin</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="base_linear_back">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/transBackground</item>
+        <item name="android:layout_margin">@dimen/normal_margin</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+
+</resources>
